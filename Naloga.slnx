@@ -1,0 +1,15 @@
+<Solution>
+  <Project Path="Naloga.Aplication/Naloga.Aplication.csproj">
+    <BuildDependency Project="Naloga.Domain/Naloga.Domain.csproj" />
+  </Project>
+  <Project Path="Naloga.Domain/Naloga.Domain.csproj" />
+  <Project Path="Naloga.Infrastructure/Naloga.Infrastructure.csproj">
+    <BuildDependency Project="Naloga.Aplication/Naloga.Aplication.csproj" />
+    <BuildDependency Project="Naloga.Domain/Naloga.Domain.csproj" />
+  </Project>
+  <Project Path="Naloga.WebApi/Naloga.WebApi.csproj">
+    <BuildDependency Project="Naloga.Aplication/Naloga.Aplication.csproj" />
+    <BuildDependency Project="Naloga.Domain/Naloga.Domain.csproj" />
+    <BuildDependency Project="Naloga.Infrastructure/Naloga.Infrastructure.csproj" />
+  </Project>
+</Solution>

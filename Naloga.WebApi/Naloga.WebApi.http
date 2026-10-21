@@ -1,0 +1,6 @@
+@Naloga.WebApi_HostAddress = http://localhost:5035
+
+GET {{Naloga.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
